@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apvac - Asossiação Proteção a Vida Animal Cubatão</title>
+</head>
+<body>
+    <main>
+        <h1>Desenvolvimento Front-end</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="voluntariado.html">voluntariado</a></li>
+                <li><a href="doacoes.html">Doações</a></li>
+                <li><a href="transparencia.html">Transparencia</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    
+        <section>
+            <h2>Fundamentos</h2>
+            <article>
+                <h3>HTML5</h3>
+                <p>Conteúdo sobre HTML5...</p>
+            </article>
+        
+            <article>
+                <h3>CSS3</h3>
+                 <p>Conteúdo sobre CSS3...</p>
+            </article>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+            
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+            
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" 
+                pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+            
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento">
+            
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" 
+                min="18" max="120">
+            </fieldset>
+            <fieldset>
+                <legend>Preferências</legend>
+            
+                <label for="cor">Cor Favorita:</label>
+                <input type="color" id="cor" name="cor">
+            
+                <label for="volume">Volume:</label>
+                <input type="range" id="volume" name="volume" 
+                min="0" max="100" value="50">
+            </fieldset>
+            <fieldset>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </section>
+    
+          
+        <form>  
+            <details>
+                <summary>Clique para ver mais informações</summary>
+                <p>Conteúdo adicional que aparece quando expandido.</p>
+            </details>
+
+            <datalist id="navegadores">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+            </datalist>
+            <label for="navegador">Escolha seu navegador:</label>
+            <input list="navegadores" id="navegador" name="navegador">
+            
+        </form>
+    
+        <section><!-- CPF -->
+            <input type="text" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" 
+                placeholder="000.000.000-00" title="Formato: 000.000.000-00">
+
+            <!-- CEP -->
+            <input type="text" pattern="[0-9]{5}-[0-9]{3}" 
+                placeholder="00000-000" title="Formato: 00000-000">
+
+            <!-- Telefone Celular -->
+            <input type="tel" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" 
+             placeholder="(00) 00000-0000" title="Formato: (00) 00000-0000">
+        </section>
+    </main>
+    <aside>
+        <h2>Recursos Adicionais</h2>
+        <p>Links e materiais complementares...</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis impedit molestiae sunt, tempore quos ipsa voluptatum libero cupiditate labore minima nisi et nulla veritatis! Voluptatibus ipsam nam illo aspernatur libero!</p>
+    </aside>
+    <footer>
+        <h3>RODAPE DA PAGINA</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates error cum eaque, veniam culpa dignissimos quidem perferendis nostrum harum possimus animi! Quidem ratione laborum temporibus ea totam dolorum molestias laudantium.</p>
+    </footer>
+</body>
+</html>
